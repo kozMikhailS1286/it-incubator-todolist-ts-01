@@ -10,3 +10,22 @@
 body {
   background-color: darkslategray;
 }
+
+.isDone {
+  font-weight: bold;
+  opacity: 0.5;
+  color: hotpink;
+  text-decoration: line-through;
+}
+
+.btn-active {
+  font-weight: bold;
+  color: #2b2b2b;
+  background-color: greenyellow;
+  border-color: greenyellow;
+}
+
+.error {
+  border: 2px solid hotpink;
+  outline: none;
+}
